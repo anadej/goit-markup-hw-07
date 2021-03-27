@@ -1,0 +1,139 @@
+.site-footer {
+  background-color: var(--third-bg-color);
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.site-footer-list {
+  display: flex;
+}
+
+.site-footer address {
+  margin-top: 20px;
+  margin-bottom: 9px;
+  color: var(--primary-white-color);
+  font-style: normal;
+  line-height: 1.71;
+}
+
+.footer-contact .item:not(:last-child) {
+  padding-bottom: 9px;
+}
+
+.footer-contact .link {
+  color: var(--second-white-color);
+  line-height: 1.71;
+}
+
+.site-footer-list .title {
+  color: var(--primary-white-color);
+  font-size: inherit;
+  font-weight: 700;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.site-footer-list .item:not(:last-child) {
+  padding-right: 70px;
+}
+
+.site-footer-list-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-footer-list-social-list .item:not(:last-child) {
+  padding-right: 10px;
+}
+
+.site-footer-list-social-list .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-footer-list-social-list .link:hover,
+.site-footer-list-social-list .link:focus {
+  background-color: var(--accent-color);
+}
+
+.site-footer-list-social-list .social-list-icon {
+  fill: var(--primary-white-color);
+}
+
+.site-footer-list-social-list .link:hover .social-list-icon,
+.site-footer-list-social-list .link:focus .social-list-icon {
+  fill: var(--primary-white-color);
+}
+
+.form-mail-wrapper {
+  margin-left: 23px;
+}
+
+.form-mail {
+  position: relative;
+  display: flex;
+}
+
+.form-mail-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  right: 28px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  fill: var(--primary-white-color);
+}
+
+.form-mail .input {
+  width: 358px;
+  height: 50px;
+  background-color: var(--third-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  padding-left: 16px;
+  margin-right: 12px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-mail .input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.form-mail .btn {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  height: 50px;
+
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 62px 10px 29px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-mail .btn:focus,
+.form-mail .btn:hover {
+  background-color: var(--accent-hero-color);
+}
