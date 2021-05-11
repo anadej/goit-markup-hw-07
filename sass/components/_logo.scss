@@ -11,4 +11,8 @@
   .accent {
     color: var(--accent-color);
   }
+
+  .site-footer & {
+    color: var(--primary-white-color);
+  }
 }

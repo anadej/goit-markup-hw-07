@@ -49,13 +49,10 @@
       border-radius: 2px;
     }
 
-    &.current {
+    &.current,
+    &.current::after {
       color: var(--accent-color);
       width: 100%;
-
-      &.current::after {
-        width: 100%;
-      }
     }
   }
 }

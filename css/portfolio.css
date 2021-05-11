@@ -122,6 +122,10 @@ body {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-social .social-list-icon {
+  fill: var(--primary-white-color);
+}
+
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -304,8 +308,6 @@ body {
   fill: var(--accent-color);
 }
 
-/* ========= END COMPONENTS ========= */
-/* ========== LOGO ========== */
 .logo {
   margin-top: 24px;
   margin-bottom: 25px;
@@ -321,6 +323,13 @@ body {
   color: var(--accent-color);
 }
 
+.site-footer .logo {
+  color: var(--primary-white-color);
+}
+
+/* ========= END COMPONENTS ========= */
+/* ========== LOGO ========== */
+/*@import './layout/logo';*/
 /* ======== END LOGO ========= */
 /* ========== HEADER ========== */
 .site-header {
@@ -373,12 +382,8 @@ body {
   border-radius: 2px;
 }
 
-.site-nav .link.current {
+.site-nav .link.current, .site-nav .link.current::after {
   color: var(--accent-color);
-  width: 100%;
-}
-
-.site-nav .link.current.current::after {
   width: 100%;
 }
 
@@ -543,10 +548,6 @@ body {
   line-height: 1.71;
 }
 
-.site-footer .logo {
-  color: var(--primary-white-color);
-}
-
 .site-footer-list {
   display: flex;
 }
@@ -600,14 +601,6 @@ body {
 
 .footer-social .link:hover, .footer-social .link:focus {
   background-color: var(--accent-color);
-}
-
-.footer-social .link:hover .social-list-icon, .footer-social .link:focus .social-list-icon {
-  fill: var(--primary-white-color);
-}
-
-.footer-social .social-list-icon {
-  fill: var(--primary-white-color);
 }
 
 .form-mail-wrapper {

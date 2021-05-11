@@ -11,10 +11,6 @@
     font-style: normal;
     line-height: 1.71;
   }
-
-  .logo {
-    color: var(--primary-white-color);
-  }
 }
 
 .site-footer-list {
@@ -78,15 +74,7 @@
     &:hover,
     &:focus {
       background-color: var(--accent-color);
-
-      .social-list-icon {
-        fill: var(--primary-white-color);
-      }
     }
-  }
-
-  .social-list-icon {
-    fill: var(--primary-white-color);
   }
 }
 
