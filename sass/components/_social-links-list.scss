@@ -1,7 +1,14 @@
 .social-list {
-  display: flex;
-  justify-content: space-between;
-  padding: 16px 32px 0 32px;
+  display: inline-flex;
+  // justify-content: space-between;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.social-list-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 
 .social-list-link {
